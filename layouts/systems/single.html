@@ -1,0 +1,40 @@
+{{ define "main" }}
+<article class="system-single">
+    <header>
+        <h1>{{ .Title }}</h1>
+        <div class="system-meta">
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02 January 2006" }}</time>
+            <span class="status status-{{ .Params.status }}">{{ .Params.status }}</span>
+        </div>
+        {{ if .Params.tags }}
+        <div class="tags">
+            {{ range .Params.tags }}
+                <span class="tag">{{ . }}</span>
+            {{ end }}
+        </div>
+        {{ end }}
+    </header>
+    
+    {{ if and .Params.cover .Params.showCover }}
+    <figure class="system-cover">
+        <img src="{{ .Params.cover }}" alt="{{ .Title }}">
+    </figure>
+    {{ end }}
+    
+    <div class="system-content">
+        {{ .Content }}
+    </div>
+    
+    <nav class="system-nav">
+        <div class="nav-links">
+            {{ with .PrevInSection }}
+            <a class="nav-prev" href="{{ .Permalink }}">&larr; {{ .Title }}</a>
+            {{ end }}
+            {{ with .NextInSection }}
+            <a class="nav-next" href="{{ .Permalink }}">{{ .Title }} &rarr;</a>
+            {{ end }}
+        </div>
+        <a class="nav-back" href="/systems/">&larr; Back to Systems</a>
+    </nav>
+</article>
+{{ end }}

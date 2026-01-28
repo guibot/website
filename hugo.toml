@@ -1,0 +1,31 @@
+baseURL = 'https://yoursite.com/'
+languageCode = 'en-us'
+title = 'Experimental Systems'
+
+[params]
+  description = "Designing and building experimental systems between art, technology, sound and interaction"
+
+[taxonomies]
+  tag = 'tags'
+  
+[menu]
+  [[menu.main]]
+    name = 'Home'
+    url = '/'
+    weight = 1
+  [[menu.main]]
+    name = 'Systems'
+    url = '/systems/'
+    weight = 2
+  [[menu.main]]
+    name = 'Journal'
+    url = '/journal/'
+    weight = 3
+  [[menu.main]]
+    name = 'About'
+    url = '/about/'
+    weight = 4
+  [[menu.main]]
+    name = 'Contact'
+    url = '/contact/'
+    weight = 5

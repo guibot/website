@@ -1,0 +1,25 @@
++++
+title = "Spatial Sound Exploration"
+date = 2020-10-06
+status = "ongoing"
+tags = ["artica", "interactive", "music", "research"]
+featured = true
+cover = "./2020-10-06-Spatial-Sound-Exploration-images/spatial_sound.jpg"
+showCover = false
++++
+
+
+
+
+{{< youtube pVvD_jaSs7g >}}
+
+## Spatial Sound Exploration
+
+## Exploring spatial soundscapes with body location.
+
+This prototype is a proof of concept for location-based sound exploration.
+
+Each participant/VIVE tracker has a sound attached, this sound follows the participant inside the room. If the participant moves to a corner the sound becomes more audible in that specific corner. This video shows a proof of concept in a small room, the same concept can be applied in any room size, or even in large venues.  
+Follow the video's link for a full description.
+
+https://youtu.be/cFSudsX2J4Ahttps://youtu.be/s9VglBbLPoQ

@@ -1,0 +1,20 @@
++++
+title = "Pepper's Ghost Experiment"
+date = 2020-02-13
+status = "ongoing"
+tags = ["artica", "interactive", "research", "visuals", "workshops"]
+featured = true
+cover = "./2020-02-13-Peppers-Ghost-Experiment-images/peppersghost_walkthrough.jpg"
+showCover = false
++++
+
+
+
+
+{{< youtube pVvD_jaSs7g >}}
+
+## Pepper's Ghost Walkthrough
+
+An experiment using transparent reflective film, that enables nice holographic illusions, also knows as Pepper's Ghost. Enable captions for english subtitles.
+
+https://youtu.be/HTtuS8oTbqw

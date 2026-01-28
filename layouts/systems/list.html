@@ -1,0 +1,25 @@
+{{ define "main" }}
+<section class="systems">
+    <h1>Systems</h1>
+    
+    <!-- Ongoing Systems -->
+    <div class="systems-ongoing">
+        <h2>Ongoing</h2>
+        <div class="systems-grid">
+            {{ range where .Pages "Params.status" "ongoing" }}
+                {{ partial "system-card.html" . }}
+            {{ end }}
+        </div>
+    </div>
+    
+    <!-- Archived Systems -->
+    <div class="systems-archive">
+        <h2>Archive</h2>
+        <div class="systems-grid">
+            {{ range where .Pages "Params.status" "archived" }}
+                {{ partial "system-card.html" . }}
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}

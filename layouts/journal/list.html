@@ -1,0 +1,27 @@
+{{ define "main" }}
+<section class="journal">
+    <h1>Journal</h1>
+    
+    <!-- Recent Entries -->
+    <div class="journal-recent">
+        <h2>Recent</h2>
+        <div class="journal-grid">
+            {{ range first 12 .Pages }}
+                {{ partial "journal-card.html" . }}
+            {{ end }}
+        </div>
+    </div>
+    
+    <!-- Archive (if more than 12 entries) -->
+    {{ if gt (len .Pages) 12 }}
+    <div class="journal-archive">
+        <h2>Archive</h2>
+        <div class="journal-grid">
+            {{ range after 12 .Pages }}
+                {{ partial "journal-card.html" . }}
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
+</section>
+{{ end }}
