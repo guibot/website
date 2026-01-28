@@ -9,12 +9,7 @@ showCover = false
 +++
 
 
-
-
-{{< youtube pVvD_jaSs7g >}}
-
-## The Sounds of 0-Coast, A120, Desmodus Versio
-
 A brief drive-thru basic sounds of Makenoise 0-Coast, Doepfer A120 and Noise Engineering Desmodus Versio.
 
-https://youtu.be/CIvnslEbgJQ
+{{< youtube CIvnslEbgJQ >}}
+

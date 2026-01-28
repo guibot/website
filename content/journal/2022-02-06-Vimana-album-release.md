@@ -1,5 +1,5 @@
 +++
-title = "Vimana, album release"
+title = "Vimana"
 date = 2022-02-06
 status = "ongoing"
 tags = ["music"]
@@ -7,13 +7,6 @@ featured = true
 cover = "./2022-02-06-Vimana-album-release-images/vimana_album.jpg"
 showCover = false
 +++
-
-
-
-
-{{< youtube pVvD_jaSs7g >}}
-
-## Vimana
 
 My first album "Vimana, a gathering of sonic sculptures". Enjoy!   :)
 

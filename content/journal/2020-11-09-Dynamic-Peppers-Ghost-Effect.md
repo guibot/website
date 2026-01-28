@@ -9,12 +9,10 @@ showCover = false
 +++
 
 
+Here's another experiment using holographic illusions aka Pepper's Ghost, this time with a physical interaction between the virtual and the real worlds. Check the walkthrough in case you want to know more about this experiment.
 
 
-{{< youtube pVvD_jaSs7g >}}
+{{< youtube L1jKKhni89I >}}
+.
+{{< youtube ZKw9Rbh_npU >}}
 
-## Dynamic Pepper's Ghost Effect
-
-## Here's another experiment using holographic illusions aka Pepper's Ghost, this time with a physical interaction between the virtual and the real worlds. Check the walkthrough in case you want to know more about this experiment.
-
-https://youtu.be/L1jKKhni89Ihttps://youtu.be/ZKw9Rbh\_npU

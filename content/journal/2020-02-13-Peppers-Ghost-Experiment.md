@@ -8,13 +8,7 @@ cover = "./2020-02-13-Peppers-Ghost-Experiment-images/peppersghost_walkthrough.j
 showCover = false
 +++
 
-
-
-
-{{< youtube pVvD_jaSs7g >}}
-
-## Pepper's Ghost Walkthrough
+{{< youtube HTtuS8oTbqw >}}
 
 An experiment using transparent reflective film, that enables nice holographic illusions, also knows as Pepper's Ghost. Enable captions for english subtitles.
 
-https://youtu.be/HTtuS8oTbqw

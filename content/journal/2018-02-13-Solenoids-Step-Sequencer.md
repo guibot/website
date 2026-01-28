@@ -9,13 +9,8 @@ showCover = false
 +++
 
 
+{{< youtube GcjFiCbWwyM >}}
 
-
-{{< youtube pVvD_jaSs7g >}}
-
-## Solenoids Step Sequencer
 
 Here I'm using a modified Beap Step Sequencer from [MAXMSP](http://cycling74.com) to trigger Solenoids actuators.  
 It's recorded in portuguese, you can enable subtitles.
-
-https://youtu.be/GcjFiCbWwyM

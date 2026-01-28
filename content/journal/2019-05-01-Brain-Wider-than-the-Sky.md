@@ -8,16 +8,7 @@ cover = "./2019-05-01-Brain-Wider-than-the-Sky-images/brain.jpg"
 showCover = false
 +++
 
-
-
-
-{{< youtube pVvD_jaSs7g >}}
-
-## Brain, wider than the Sky
-
-https://youtu.be/tcKQ5i0vc0Y
-
-**Brain, Wider than the Sky**
+{{< youtube tcKQ5i0vc0Y >}}
 
 Client  
 Fundação Calouste Gulbenkian
