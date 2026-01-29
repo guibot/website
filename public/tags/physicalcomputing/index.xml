@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Physicalcomputing on Experimental Systems</title>
+    <link>https://yoursite.com/tags/physicalcomputing/</link>
+    <description>Recent content in Physicalcomputing on Experimental Systems</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://yoursite.com/tags/physicalcomputing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Glimmer</title>
+      <link>https://yoursite.com/journal/2024-02-12-glimmer/</link>
+      <pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://yoursite.com/journal/2024-02-12-glimmer/</guid>
+      <description>&lt;p&gt;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/nqpmR6J8SII?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://microaudiowaves.net/glimmer/&#34;&gt;Glimmer&lt;/a&gt; is the new album by &lt;a href=&#34;https://microaudiowaves.net/&#34;&gt;Micro Audio Waves&lt;/a&gt;, and just like in the past &lt;a href=&#34;https://guilhermemartins.net/zoetrope/&#34;&gt;Zoetrope&lt;/a&gt;, they partnership with the coreographer Rui Horta to create an unique and immersive concert experience. Just like in Zoetrope, I was once again privileged in being inside this epic journey. &lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dreambox</title>
+      <link>https://yoursite.com/systems/2023-04-11-dreambox_pt/</link>
+      <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://yoursite.com/systems/2023-04-11-dreambox_pt/</guid>
+      <description>&lt;p&gt;Dreambox is an installation that takes me to a mental corner, where dreams, ideas, and memories reside. These mental entities have a life of their own, they can be more or less active, pulsate in synchrony or asynchrony, they can fall asleep completely leaving only one active, or even none.&lt;/p&gt;&#xA;&lt;p&gt;This installation began with the need to decorate one of the spaces in the “Circular Corner” (Canto Circular) at Largo de Residências. The “Circular Corner” includes the “Community Cabinet” (Armário Comunitário) where you can exchange objects, and the “Community Cabinet” where you can exchange clothes, and this is where Dreambox is located.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Versailles</title>
+      <link>https://yoursite.com/journal/2022-12-12-versailles/</link>
+      <pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://yoursite.com/journal/2022-12-12-versailles/</guid>
+      <description>&lt;p&gt;Partnership with &lt;a href=&#34;https://marvilab.pt/en/versailles/&#34;&gt;Marvilab&lt;/a&gt;, a highly talented and creative boutique in Marvila (Lisbon).&lt;/p&gt;&#xA;&lt;p&gt;This project consisted in a set composed by kinetic sculptures, moving furniture and dynamic lights.&lt;br&gt;&#xA;This moving set had to be activated on a timed based interval. &lt;/p&gt;&#xA;&lt;p&gt;This video shows some making off and the final result of this great project.&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/REDlUwWJv3U?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;My work consisted in developing a set of microcontrollers to drive the motors and lights.&lt;br&gt;&#xA;Then there was a Maestro microcontroller that switched on and off all the others microcontrollers. The Maestro had the capability of programming the time based interval, and also how long the activation persisted.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vimana Sequencer</title>
+      <link>https://yoursite.com/systems/2022-04-30-vimana-sequencer/</link>
+      <pubDate>Sat, 30 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://yoursite.com/systems/2022-04-30-vimana-sequencer/</guid>
+      <description>&lt;p&gt;Vimana is a personal interpretation of a Multi-track Midi Step Sequencer with an Open Philosophy regarding the User Interface&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://guilhermemartins.net/old/wp-content/uploads/2022/04/Vimana_2-1024x622.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I have been working on this project during the last 4 years, and today, I&amp;rsquo;m presenting it to the world as it is right now.&lt;br&gt;&#xA;Vimana is also my submission to the MIDI Awards 2022.&lt;/p&gt;&#xA;&lt;p&gt;Below is a list of the main features that are implemented:&lt;/p&gt;&#xA;&lt;p&gt;16 independent MIDI channels/tracks&lt;br&gt;&#xA;Main clock, division/multiplication per track&lt;br&gt;&#xA;Step parameters: pitch, velocity, gate, retrigger, repeat, chord, inversions, sustain&lt;br&gt;&#xA;Play mode: forward, reverse, pendulum, random, drunk&lt;br&gt;&#xA;Built-in Quantizer with many different scales, and also the possibility of setting a custom scale.&lt;br&gt;&#xA;Euclidean Generator&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Drone Engine</title>
+      <link>https://yoursite.com/systems/2022-04-11-drone-engine/</link>
+      <pubDate>Mon, 11 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://yoursite.com/systems/2022-04-11-drone-engine/</guid>
+      <description>&lt;p&gt;I have an &lt;a href=&#34;http://axoloti.com&#34;&gt;Axoloti&lt;/a&gt; core for a couple of years, I never gave good use to it. The time  finally came. I have been thinking in a Drone Machine, something that could be fun and simple to use, with a lot of ground to explore and play. On the other hand, I also want to build a generic physical setup, that allows me to change firmware and experiment with new sound objects and synth architectures.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Physical Computing Tutorials</title>
+      <link>https://yoursite.com/journal/2022-01-01-physical-computing-tutorials/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://yoursite.com/journal/2022-01-01-physical-computing-tutorials/</guid>
+      <description>&lt;p&gt;This is my humble contribution to the internauts, showing how to interface with physical stuff.&lt;br&gt;&#xA;I&amp;rsquo;ve been developing physical interfaces for a couple of years, from robotics to electronic musical instruments and other physical devices to be used in interactive installations.&lt;br&gt;&#xA;In this &lt;a href=&#34;https://www.youtube.com/c/GuilhermeMartins&#34;&gt;Youtube&lt;/a&gt; channel, I will be sharing experiments hoping they will be useful for someone.&lt;/p&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s a list of the tutorials I have made so far.  &lt;/p&gt;&#xA;&lt;p&gt;Simple USB MIDI in 3 parts&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Modular Physical Computing</title>
+      <link>https://yoursite.com/systems/2021-10-01-modular-physical-computing/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://yoursite.com/systems/2021-10-01-modular-physical-computing/</guid>
+      <description>&lt;h2 id=&#34;i-personally-enjoy-pressing-buttons-turning-knobs-see-and-touch-physical-devices-and-if-they-make-any-bleep-or-bloops-its-even-better&#34;&gt;I personally enjoy pressing buttons, turning knobs,  see and touch physical devices, and if they make any bleep or bloops it&amp;rsquo;s even better.&lt;/h2&gt;&#xA;&lt;p&gt;Building physical control systems is not always easy, speccially if we need them to be sturdy enough to throw on a backpack, or take them to an installation or stage performance. This project started in &lt;a href=&#34;http://artica.cc&#34;&gt;ArticaCC&lt;/a&gt;, during a research project named &amp;ldquo;Interact&amp;rdquo;. This enabled us to research ways to build interactive systems related to software and hardware. These modular systems are easy to solder and easy to interface with, and because they are totally generic they can be used with &lt;a href=&#34;http://arduino.cc&#34;&gt;Arduino&lt;/a&gt;, &lt;a href=&#34;http://pjrc.com&#34;&gt;Teensy&lt;/a&gt;, &lt;a href=&#34;https://www.raspberrypi.org/&#34;&gt;RaspberyPI&lt;/a&gt; or any other microcontroller of your choice.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Brain, Wider than the Sky</title>
+      <link>https://yoursite.com/systems/2019-05-01-brain-wider-than-the-sky/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://yoursite.com/systems/2019-05-01-brain-wider-than-the-sky/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/tcKQ5i0vc0Y?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;Client&lt;br&gt;&#xA;Fundação Calouste Gulbenkian&lt;/p&gt;&#xA;&lt;p&gt;Curator&lt;br&gt;&#xA;Rui Oliveira&lt;/p&gt;&#xA;&lt;p&gt;Project leader, Interaction design, Software development&lt;br&gt;&#xA;Neuron Sculpture detection and interaction&lt;br&gt;&#xA;André Almeida&lt;/p&gt;&#xA;&lt;p&gt;Rigging, Electronics, Setup&lt;br&gt;&#xA;David Palma&lt;/p&gt;&#xA;&lt;p&gt;Neuron Sculpture project leader&lt;br&gt;&#xA;Neuron Sculpture vision, concept, sculpture&lt;br&gt;&#xA;Eric da Costa&lt;/p&gt;&#xA;&lt;p&gt;Interactive applications art direction&lt;br&gt;&#xA;3D Models, UI design, Brain Orchestra Sound design&lt;br&gt;&#xA;Neuron Sculpture Sound design&lt;br&gt;&#xA;Filipe Barbosa&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Toppi</title>
+      <link>https://yoursite.com/systems/2019-05-01-toppi/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://yoursite.com/systems/2019-05-01-toppi/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/trh2k8VYCLE?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;&lt;strong&gt;Customer&lt;/strong&gt;&lt;br&gt;&#xA;Nestlé Portugal&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Agency&lt;/strong&gt;&lt;br&gt;&#xA;J. Walter Thompson Lisboa&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Concept&lt;/strong&gt;&lt;br&gt;&#xA;J. Walter Thompson Lisboa&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Production&lt;/strong&gt;&lt;br&gt;&#xA;Artica Creative Computing&lt;br&gt;&#xA;&lt;a href=&#34;https://medium.com/artica/&#34;&gt;http://artica.cc&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Robot Concept and Extruder Design&lt;/strong&gt;&lt;br&gt;&#xA;Eric da Costa&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Construction&lt;/strong&gt;&lt;br&gt;&#xA;Eric da Costa&lt;br&gt;&#xA;José Pedro Noronha&lt;br&gt;&#xA;João Ribeiro&lt;br&gt;&#xA;André Almeida&lt;br&gt;&#xA;Guilherme Martins&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Software Development&lt;/strong&gt;&lt;br&gt;&#xA;André Almeida&lt;br&gt;&#xA;Tarquínio Mota&lt;br&gt;&#xA;Ricardo Imperial&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Solenoids Step Sequencer</title>
+      <link>https://yoursite.com/systems/2018-02-13-solenoids-step-sequencer/</link>
+      <pubDate>Tue, 13 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>https://yoursite.com/systems/2018-02-13-solenoids-step-sequencer/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/GcjFiCbWwyM?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;Here I&amp;rsquo;m using a modified Beap Step Sequencer from &lt;a href=&#34;http://cycling74.com&#34;&gt;MAXMSP&lt;/a&gt; to trigger Solenoids actuators.&lt;br&gt;&#xA;It&amp;rsquo;s recorded in portuguese, you can enable subtitles.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Camera Pixy Demo/Review</title>
+      <link>https://yoursite.com/systems/2018-02-06-camera-pixy-demoreview/</link>
+      <pubDate>Tue, 06 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>https://yoursite.com/systems/2018-02-06-camera-pixy-demoreview/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/D-VMxKIl6uw?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;This video shows multiple approaches about how to use the Pixy camera, showing also different types of Pan / Tilt systems. It&amp;rsquo;s recorded in portuguese, you can enable subtitles.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Amoreiras 360º Panoramic Elevator</title>
+      <link>https://yoursite.com/systems/2016-05-11-amoreiras-360o-panoramic-elevator/</link>
+      <pubDate>Wed, 11 May 2016 00:00:00 +0000</pubDate>
+      <guid>https://yoursite.com/systems/2016-05-11-amoreiras-360o-panoramic-elevator/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/cfp2qZ86wk4?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;In September 2015 we did a project for &lt;a href=&#34;http://www.sotaart.com/&#34;&gt;State of the Art&lt;/a&gt; to develop a few installations to celebrate &lt;a href=&#34;https://artica.cc/blog/2015/09/04/30-anos-amoreiras.html&#34;&gt;30 Anos Amoreiras&lt;/a&gt;. Amongst this installation was an elevator simulator, decorated with TV screens and LED strips. The simulator was promoting the upcoming opening of a &lt;a href=&#34;http://www.amoreiras360view.com/&#34;&gt;360 Panoramic View&lt;/a&gt; in the top of Amoreiras Shopping tower.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Continente Missao Sorriso</title>
+      <link>https://yoursite.com/systems/2015-12-03-continente-missao-sorriso/</link>
+      <pubDate>Thu, 03 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://yoursite.com/systems/2015-12-03-continente-missao-sorriso/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/gKpxnx61JYE?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;We had to create an interactive installation for a road-show campaign that would be travelling through several schools across Portugal to promote &lt;a href=&#34;https://missao.continente.pt/&#34;&gt;Missão Sorriso&lt;/a&gt;. The project involved developing a &lt;strong&gt;&lt;em&gt;Band Hero&lt;/em&gt;&lt;/strong&gt; clone that could play 3 licensed tracks from &lt;a href=&#34;https://soundcloud.com/orelha-negra&#34;&gt;Orelha Negra&lt;/a&gt;. To bring more impact to the experience we used real instruments as input devices instead of the usual plastic controllers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Valentine’s Interactive Hanky</title>
+      <link>https://yoursite.com/systems/2014-02-13-valentines-interactive-hanky/</link>
+      <pubDate>Thu, 13 Feb 2014 00:00:00 +0000</pubDate>
+      <guid>https://yoursite.com/systems/2014-02-13-valentines-interactive-hanky/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/tAVrpWRQsZc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;It all started with the idea of creating a workshop around the theme of paper circuits, with great inspiration from the work and research of &lt;a href=&#34;https://vimeo.com/user1892233&#34;&gt;Jie Qui&lt;/a&gt;, &lt;a href=&#34;http://lizastark.com/portfolio/paper-circuits/&#34;&gt;Liza Stark&lt;/a&gt; and others. Above all, the main idea was to transfer skills and knowledge to the team at &lt;a href=&#34;http://www.casadoconhecimento.pt/&#34;&gt;Casa do Conhecimento&lt;/a&gt;. To show how easy it is to create simple things that are both beautiful and can have a great impact. We had this initial idea but we were still lacking a concept on the same level to the technology. The workshop was planned for February, which coincided with the &lt;a href=&#34;http://www.namorarportugal.pt/&#34;&gt;Namorar Portugal&lt;/a&gt; (Flirting Portugal) event and all the Valentine happenings, and being Vila Verde the capital of this event we decided to combine the paper circuits workshop with the famous and acclaimed Lenço dos Namorados (Valentine’s handkerchief).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ciav - Centro de Interpretação de Almada Velha</title>
+      <link>https://yoursite.com/systems/2013-07-15-ciav---centro-de-interpretacao-de-almada-velha/</link>
+      <pubDate>Mon, 15 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://yoursite.com/systems/2013-07-15-ciav---centro-de-interpretacao-de-almada-velha/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/urG9LNcyugM?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;CIAV . Centro de Interpretação de Almada Velha&lt;br&gt;&#xA;Comissioned by Câmara Municipal de Almada&lt;/p&gt;&#xA;&lt;p&gt;Concept&lt;br&gt;&#xA;ArticaCC (Guilherme Martins, André Almeida)&lt;br&gt;&#xA;RPAR (Ana Robalo, Rui Pinto)&lt;br&gt;&#xA;Eric da Costa&lt;/p&gt;&#xA;&lt;p&gt;Architecture RPAR&lt;br&gt;&#xA;Ana Robalo&lt;br&gt;&#xA;Rui Pinto&lt;/p&gt;&#xA;&lt;p&gt;Development ARTICACC&lt;br&gt;&#xA;André Almeida (Project Manager, Development)Guilherme Martins (Visual Design, Interactive Applications, Development)&lt;br&gt;&#xA;Filipe Cruz (Software Development)&lt;br&gt;&#xA;João Ribeiro (Construction)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sega Rally Mega Hack</title>
+      <link>https://yoursite.com/systems/2012-11-15-sega-rally-mega-hack/</link>
+      <pubDate>Thu, 15 Nov 2012 00:00:00 +0000</pubDate>
+      <guid>https://yoursite.com/systems/2012-11-15-sega-rally-mega-hack/</guid>
+      <description>&lt;p&gt;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/g0JQ2x5ZVJE?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/cM9Aq6DEAXM?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Sega Rally Arcade Epic Hack&lt;br&gt;&#xA;Comissioned by Sapo, PT&lt;/p&gt;&#xA;&lt;p&gt;Premiere:&lt;br&gt;&#xA;Sapo Codebits VI&lt;br&gt;&#xA;Pavilhão Atlântico, 15 – 17 November 2012&lt;br&gt;&#xA;Also present at:&lt;br&gt;&#xA;MEO XL Party&lt;br&gt;&#xA;15 – 17 December 2012&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

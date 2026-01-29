@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Continente Missao Sorriso - Experimental Systems</title>
+    <meta name="description" content="Designing and building experimental systems between art, technology, sound and interaction">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <nav class="nav">
+    <ul>
+        
+            <li><a href="/" >Home</a></li>
+        
+            <li><a href="/systems/" >Systems</a></li>
+        
+            <li><a href="/journal/" >Journal</a></li>
+        
+            <li><a href="/about/" >About</a></li>
+        
+            <li><a href="/contact/" >Contact</a></li>
+        
+    </ul>
+</nav>
+
+    
+    <main>
+        
+<article class="journal-single">
+    <header>
+        <time datetime="2015-12-03">03 December 2015</time>
+        <h1>Continente Missao Sorriso</h1>
+        
+        <div class="tags">
+            
+                <span class="tag">artica</span>
+            
+                <span class="tag">interactive</span>
+            
+                <span class="tag">physicalcomputing</span>
+            
+                <span class="tag">work</span>
+            
+        </div>
+        
+    </header>
+    
+    
+    
+    <div class="journal-content">
+        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/gKpxnx61JYE?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>We had to create an interactive installation for a road-show campaign that would be travelling through several schools across Portugal to promote <a href="https://missao.continente.pt/">Missão Sorriso</a>. The project involved developing a <strong><em>Band Hero</em></strong> clone that could play 3 licensed tracks from <a href="https://soundcloud.com/orelha-negra">Orelha Negra</a>. To bring more impact to the experience we used real instruments as input devices instead of the usual plastic controllers.</p>
+<h1 id="hardware"><strong>Hardware</strong></h1>
+<p>The hardware had to be procured and modified to allow for non-musicians to still be able to play the game. We had 4 different instruments.</p>
+<p><strong>Drum Set</strong></p>
+<p>We purchased a real drum set and stripped it down to a few minimum elements: bass drum, snare drum, tom and hi-hat. This was required for the portability of the drum set during the roadshow.</p>
+<p>Next, we coupled to it an Arduino with several piezo sensors. The piezos were placed inside each drum element which was muffled with a plastic material to prevent sound noise and physical damage to the piezos.</p>
+<p>The Arduino would register the values and send a WebSocket message to a Node server.</p>
+<p><strong>Bass Guitar</strong></p>
+<p>The bass guitar was purchased as one of those build at home kits, that saved some work of breaking a new guitar apart.</p>
+<p>We actually had 2 bass guitar prototypes, one using frequency analysis of the picks, and the other using actual sensors. The second prototype proved to be both more robust and easy to learn to use, and that’s the one that was used in the end.</p>
+<p>The pick was taken apart from a plastic controller of guitar hero. The bass guitar carved up for more space to place it inside along with an Arduino and connections to the triggers placed on the handle bar.</p>
+<p>Similar to the drum set, the Arduino would register the values and send a websockets message by ethernet network to a node.js server.</p>
+<p><strong>Keyboard</strong></p>
+<p>The keyboard was a standard midi keyboard, sending midi values that are converted into websockets messages by our node.js server working as a proxy.</p>
+<p><strong>Sampler</strong></p>
+<p>The sampler was a standard MPC. We opened it up to replace the lights with matching colors to the game and remove any buttons without usage. Similar to the keyboard, the MPC sent midi messages that were converted into websockets messages by our node.js server working as a proxy.</p>
+<h1 id="software"><strong>Software</strong></h1>
+<p>In the software department the whole application is actually a webpage with a localhost server.</p>
+<ul>
+<li>
+<p>The design is hardcoded to FullHD resolution.</p>
+</li>
+<li>
+<p>Web Audio API is used to trigger sounds.</p>
+</li>
+<li>
+<p>WebGL (via <a href="http://www.pixijs.com/">pixi.js</a>) is used to give 3d acceleration to the interactive elements.</p>
+</li>
+</ul>
+<p>To sync the tracks we developed an internal editor to add/move/edit/delete track nodes. It was made to easy scroll back and forth with the mousewheel to check for music synchronism. And it included functionality to import and export as json.</p>
+<p>An additional requirement was made to input high-scores from each session and export them to a local file, for the client to analyse after the roadshow was done.</p>
+<p>As previously mentioned the <a href="https://bitbucket.org/artica/continente-music-experience">sourcecode is open source</a> available under MIT license. Feel free to fork it to add support for frets on fire assets, other controllers, play music directly from youtube / soundcloud, etc.</p>
+<h1 id="installation"><strong>Installation</strong></h1>
+<p>We delivered the project as a turn key solution. Fully pre-tested and ready to operate by the roadshow crew alone. They were touring several schools during 2 months, we wouldn’t be able to be present during all of the sessions but were available to provide support when required.</p>
+<p>All the hardware was ready to plug and play. We provided a technical ryder for the cables, labelled all inputs and ducttapped the unused ports. We also provided an operations and troubleshooting manual and provided replacement parts for the more sensitive components that might not resist the hard life on the road.</p>
+<p>We were present on the initial setup sessions to make sure all things worked smoothly. We caught some early malfunctions and had to repair them but overall we were impressed on how well the system held up on the road.</p>
+<p><strong>Customer:</strong> Continente Missão Sorriso</p>
+<p><strong>Agency:</strong> GCI</p>
+<p><strong>Software:</strong> Filipe Cruz, André Almeida</p>
+<p><strong>Instruments Hacking &amp; Electronics:</strong> Guilherme Martins</p>
+
+    </div>
+    
+    <nav class="journal-nav">
+        <div class="nav-links">
+            
+            <a class="nav-prev" href="http://localhost:1313/journal/2014-02-13-valentines-interactive-hanky/">&larr; Valentine’s Interactive Hanky</a>
+            
+            
+            <a class="nav-next" href="http://localhost:1313/journal/2016-05-11-amoreiras-360o-panoramic-elevator/">Amoreiras 360º Panoramic Elevator &rarr;</a>
+            
+        </div>
+        <a class="nav-back" href="/journal/">&larr; Back to Journal</a>
+    </nav>
+</article>
+
+    </main>
+    
+    <footer class="footer">
+    <p>&copy; 2026 Experimental Systems</p>
+</footer>
+
+</body>
+</html>

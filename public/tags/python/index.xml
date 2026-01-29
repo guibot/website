@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Experimental Systems</title>
+    <link>https://yoursite.com/tags/python/</link>
+    <description>Recent content in Python on Experimental Systems</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://yoursite.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Daily Timer</title>
+      <link>https://yoursite.com/systems/2025-12-28-daily-timer/</link>
+      <pubDate>Sun, 28 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://yoursite.com/systems/2025-12-28-daily-timer/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://guilhermemartins.net/old/wp-content/uploads/2025/12/DailyTimerjpg.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;During development sessions, it’s common to lose track of time.&lt;/p&gt;&#xA;&lt;p&gt;I developed this minimalist app to keep a timer always visible on the screen, which plays an alarm when it reaches the end.&lt;/p&gt;&#xA;&lt;p&gt;Features:&#xA;1st timer&#xA;2nd timer (only runs if the value is &amp;gt; 0)&#xA;Alarm volume&#xA;Repeater&#xA;Always-on-top&lt;/p&gt;&#xA;&lt;p&gt;Source code:&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/guibot/Daily_Timer&#34;&gt;https://github.com/guibot/Daily_Timer&lt;/a&gt;&lt;br&gt;&#xA;App para Mac:&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/guibot/Daily_Timer/releases/&#34;&gt;https://github.com/guibot/Daily_Timer/releases/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
