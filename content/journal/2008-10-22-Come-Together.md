@@ -1,7 +1,7 @@
 +++
 title = "Come Together"
 date = 2008-10-22
-status = "ongoing"
+status = "archived"
 tags = ["stage", "visuals", "work"]
 featured = true
 cover = "./2008-10-22-Come-Together-images/cometogether.jpg"

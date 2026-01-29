@@ -1,7 +1,7 @@
 +++
 title = "The Sound of 0Coast, A120, Desmodus Versio"
 date = 2021-12-12
-status = "ongoing"
+status = "archived"
 tags = ["music"]
 featured = true
 cover = "./2021-12-12-The-Sound-of-0Coast-A120-Desmodus-Versio-images/sounds_of_ocoast.jpg"

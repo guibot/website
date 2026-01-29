@@ -1,7 +1,7 @@
 +++
 title = "Solenoids Step Sequencer"
 date = 2018-02-13
-status = "ongoing"
+status = "archived"
 tags = ["artica", "interactive", "music", "physicalcomputing", "research", "workshops"]
 featured = true
 cover = "./2018-02-13-Solenoids-Step-Sequencer-images/solenoids_sequencer.jpg"

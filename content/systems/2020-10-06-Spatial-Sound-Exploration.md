@@ -1,7 +1,7 @@
 +++
 title = "Spatial Sound Exploration"
 date = 2020-10-06
-status = "ongoing"
+status = "archived"
 tags = ["artica", "interactive", "music", "research"]
 featured = true
 cover = "./2020-10-06-Spatial-Sound-Exploration-images/spatial_sound.jpg"

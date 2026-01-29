@@ -2,33 +2,25 @@
 title = "Daily Timer"
 date = 2025-12-28
 status = "ongoing"
-tags = ["research", "work"]
+tags = ["python", "vibecoding", "app"]
 featured = true
 cover = "./2025-12-28-Daily-Timer-images/DailyTimerjpg.jpg"
 showCover = false
 +++
 
 
+![](https://guilhermemartins.net/old/wp-content/uploads/2025/12/DailyTimerjpg.jpg)
 
+During development sessions, it’s common to lose track of time.
 
-{{< youtube pVvD_jaSs7g >}}
+I developed this minimalist app to keep a timer always visible on the screen, which plays an alarm when it reaches the end.
 
-## 
-
-Timer App
-
-![](images/DailyTimerjpg.jpg)
-
-Durante as sessões de desenvolvimento é comum perder a noção do tempo.
-
-Desenvolvi esta app minimalista para ter um cronómetro sempre vísivel no ecrã, que quando chega ao fim toca um alarme.
-
-Funcionalidades:  
-1º Timer  
-2º Timer (só corre se o valor for > 0)  
-Volume do alarme  
-Repetição  
-Janela sempre visível   
+Features:
+1st timer
+2nd timer (only runs if the value is > 0)
+Alarm volume
+Repeater
+Always-on-top
   
 Source code:  
 [https://github.com/guibot/Daily\_Timer](https://github.com/guibot/Daily_Timer)  

@@ -1,7 +1,7 @@
 +++
 title = "The Sound of 0Coast, Krell Patch"
 date = 2021-06-12
-status = "ongoing"
+status = "archived"
 tags = ["music"]
 featured = true
 cover = "./2021-06-12-The-Sound-of-0Coast-Krell-Patch-images/ocoast.jpg"

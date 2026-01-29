@@ -1,7 +1,7 @@
 +++
 title = "Modular Jam #4 Cosmik Riders"
 date = 2022-06-10
-status = "ongoing"
+status = "archived"
 tags = ["music"]
 featured = true
 cover = "./2022-06-10-Modular-Jam-4-Cosmik-Riders-images/COVER.jpg"
@@ -9,13 +9,10 @@ showCover = false
 +++
 
 
-
-
-{{< youtube pVvD_jaSs7g >}}
-
-## Modular Jam #4 Cosmik Riders
-
 Recorded live with a modular system  
+
+{{< youtube BYS_S-TNkyc >}}
+.
 
 Edited the mix in Ableton Live, mainly some minor EQ and compressed the mix a bit.  
 Edited the video in Adobe Premiere to make a proper intro and development.  
@@ -26,4 +23,6 @@ KSP is triggering drums samples 1010Music Bitbox Micro, with samples from Ableto
 Adittional textures with Plaits going thru a Reverb algorythm by Expert Sleepers Disting EX  
 Everything recorded on Zoom H6  
 —————— Video gear: Sony a6400 7artisans Fish-eye 7.5mm  
-—————— Video cover by: [https://unsplash.com/photos/oMpAz-DN-9I](https://unsplash.com/photos/oMpAz-DN-9I) https://youtu.be/BYS\_S-TNkyc
+—————— Video cover by: [https://unsplash.com/photos/oMpAz-DN-9I](https://unsplash.com/photos/oMpAz-DN-9I) 
+
+

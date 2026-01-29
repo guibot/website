@@ -1,7 +1,7 @@
 +++
 title = "Valentine’s Interactive Hanky"
 date = 2014-02-13
-status = "ongoing"
+status = "archived"
 tags = ["artica", "interactive", "physicalcomputing", "research", "work", "workshops"]
 featured = true
 cover = "./2014-02-13-Valentines-Interactive-Hanky-images/interactive_valentine.jpg"

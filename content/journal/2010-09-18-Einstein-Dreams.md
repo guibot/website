@@ -1,7 +1,7 @@
 +++
 title = "Einstein Dreams"
 date = 2010-09-18
-status = "ongoing"
+status = "archived"
 tags = ["stage", "visuals", "work"]
 featured = true
 cover = "./2010-09-18-Einstein-Dreams-images/floweringtree.jpg"

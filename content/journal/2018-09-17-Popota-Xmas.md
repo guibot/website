@@ -1,7 +1,7 @@
 +++
 title = "Popota Xmas"
 date = 2018-09-17
-status = "ongoing"
+status = "archived"
 tags = ["artica", "stage", "visuals", "work"]
 featured = true
 cover = "./2018-09-17-Popota-Xmas-images/popota.jpg"

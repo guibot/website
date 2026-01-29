@@ -1,7 +1,7 @@
 +++
 title = "Sega Rally Mega Hack"
 date = 2012-11-15
-status = "ongoing"
+status = "archived"
 tags = ["artica", "interactive", "physicalcomputing", "research", "work"]
 featured = true
 cover = "./2012-11-15-Sega-Rally-Mega-Hack-images/sega_rally.jpg"

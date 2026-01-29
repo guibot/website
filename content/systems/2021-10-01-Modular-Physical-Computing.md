@@ -1,7 +1,7 @@
 +++
 title = "Modular Physical Computing"
 date = 2021-10-01
-status = "ongoing"
+status = "archived"
 tags = ["interactive", "physicalcomputing", "research", "workshops"]
 featured = true
 cover = "./2021-10-01-Modular-Physical-Computing-images/modular_physical_computing.jpg"

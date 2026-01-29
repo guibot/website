@@ -1,7 +1,7 @@
 +++
 title = "Amoreiras 360º Panoramic Elevator"
 date = 2016-05-11
-status = "ongoing"
+status = "archived"
 tags = ["artica", "interactive", "physicalcomputing", "work"]
 featured = true
 cover = "./2016-05-11-Amoreiras-360o-Panoramic-Elevator-images/amoreiras-1.jpg"

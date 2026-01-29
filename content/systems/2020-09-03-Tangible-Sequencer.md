@@ -1,7 +1,7 @@
 +++
 title = "Tangible Sequencer"
 date = 2020-09-03
-status = "ongoing"
+status = "archived"
 tags = ["artica", "computervision", "interactive", "music", "research", "workshops"]
 featured = true
 cover = "./2020-09-03-Tangible-Sequencer-images/tangible_sequencer.jpg"

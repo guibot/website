@@ -1,7 +1,7 @@
 +++
 title = "Avengers STATION Exhibition"
 date = 2016-07-08
-status = "ongoing"
+status = "archived"
 tags = ["artica", "interactive", "work"]
 featured = true
 cover = "./2016-07-08-Avengers-STATION-Exhibition-images/avengers-1.jpg"

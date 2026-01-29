@@ -1,7 +1,7 @@
 +++
 title = "Vimana"
 date = 2022-02-06
-status = "ongoing"
+status = "archived"
 tags = ["music"]
 featured = true
 cover = "./2022-02-06-Vimana-album-release-images/vimana_album.jpg"

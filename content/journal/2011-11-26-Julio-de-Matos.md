@@ -1,7 +1,7 @@
 +++
 title = "Júlio de Matos"
 date = 2011-11-26
-status = "ongoing"
+status = "archived"
 tags = ["artica", "stage", "visuals", "work"]
 featured = true
 showCover = false

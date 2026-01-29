@@ -1,19 +1,17 @@
 +++
 title = "Ensaio da Humanidade"
 date = 2025-11-29
-status = "ongoing"
-tags = ["ai", "interactive", "research", "visuals"]
+status = "archived"
+tags = ["ai", "interactive", "vibecoding", "visuals"]
 featured = true
 cover = "./2025-11-29-Ensaio-da-Humanidade-images/thumbopt1.jpg"
 showCover = false
 +++
 
 
+{{< youtube ypCYeP2TluM >}}
+.
 
-
-{{< youtube pVvD_jaSs7g >}}
-
-## 
 
 Ensaio da Humanidade
 
@@ -36,4 +34,6 @@ My algorithm suggests yes, although it might be just a mistake of my algorithm.
 
 [https://guilhermemartins.net/p5js/humanitysimulator1/](https://guilhermemartins.net/p5js/humanitysimulator1/)
 
-https://youtu.be/ypCYeP2TluM
+
+
+

@@ -1,19 +1,13 @@
 +++
 title = "The Sounds of Beads"
 date = 2022-05-30
-status = "ongoing"
+status = "archived"
 tags = ["music"]
 featured = true
 cover = "./2022-05-30-The-Sounds-of-Beads-images/Thumbnail.jpg"
 showCover = false
 +++
 
-
-
-
-{{< youtube pVvD_jaSs7g >}}
-
-## The Sounds of Beads, the Texture Synthesizer
 
 Beads, from Mutable Instruments is well known for not being everyone's "cup of tea", and it's absolutely understandable.  
   
@@ -23,4 +17,4 @@ Today I see it as a beast that plays a game where he's the master, no matter wha
 
 So here's my take on Beads :) 
 
-https://youtu.be/-bN99-gR2QQ
+{{< youtube -bN99-gR2QQ >}}

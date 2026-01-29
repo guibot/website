@@ -1,19 +1,13 @@
 +++
 title = "Modular Jam #3 Dragon Flyer"
 date = 2022-06-07
-status = "ongoing"
+status = "archived"
 tags = ["music"]
 featured = true
 cover = "./2022-06-07-Modular-Jam-3-Dragon-Flyer-images/dragon-flyer.jpg"
 showCover = false
 +++
 
-
-
-
-{{< youtube pVvD_jaSs7g >}}
-
-## Modular Jam #3 Dragon Flyer
 
 Video recorded in Serra da Arrábida, Portugal  
   
@@ -36,4 +30,5 @@ Befaco STMix
 Arturia Keystep Pro  
 Zoom H6
 
-https://youtu.be/kQIKLBSn8C0
+
+{{< youtube kQIKLBSn8C0 >}}

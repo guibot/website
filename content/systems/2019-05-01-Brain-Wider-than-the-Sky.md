@@ -1,7 +1,7 @@
 +++
 title = "Brain, Wider than the Sky"
 date = 2019-05-01
-status = "ongoing"
+status = "archived"
 tags = ["artica", "computervision", "interactive", "physicalcomputing", "work"]
 featured = true
 cover = "./2019-05-01-Brain-Wider-than-the-Sky-images/brain.jpg"

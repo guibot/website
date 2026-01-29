@@ -1,7 +1,7 @@
 +++
 title = "Pedro e Inês"
 date = 2011-03-03
-status = "ongoing"
+status = "archived"
 tags = ["artica", "stage", "visuals", "work"]
 featured = true
 cover = "./2011-03-03-Pedro-e-Ines-images/pedroines.jpg"

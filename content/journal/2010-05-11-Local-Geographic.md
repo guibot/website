@@ -1,7 +1,7 @@
 +++
 title = "Local Geographic"
 date = 2010-05-11
-status = "ongoing"
+status = "archived"
 tags = ["stage", "visuals", "work"]
 featured = true
 cover = "./2010-05-11-Local-Geographic-images/localgeographic.jpg"

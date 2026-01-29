@@ -1,7 +1,7 @@
 +++
 title = "Ciav - Centro de Interpretação de Almada Velha"
 date = 2013-07-15
-status = "ongoing"
+status = "archived"
 tags = ["artica", "interactive", "physicalcomputing", "work"]
 featured = true
 cover = "./2013-07-15-Ciav---Centro-de-Interpretacao-de-Almada-Velha-images/ciav-1.jpg"

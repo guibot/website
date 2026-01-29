@@ -1,7 +1,7 @@
 +++
 title = "O Estado do Mundo"
 date = 2021-12-02
-status = "ongoing"
+status = "archived"
 tags = ["stage"]
 featured = true
 cover = "./2021-12-02-O-Estado-do-Mundo-images/Estado-do-mundo.jpg"

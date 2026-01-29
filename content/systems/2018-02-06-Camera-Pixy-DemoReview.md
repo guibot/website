@@ -1,7 +1,7 @@
 +++
 title = "Camera Pixy Demo/Review"
 date = 2018-02-06
-status = "ongoing"
+status = "archived"
 tags = ["artica", "computervision", "interactive", "physicalcomputing", "research", "robotics", "workshops"]
 featured = true
 cover = "./2018-02-06-Camera-Pixy-DemoReview-images/pixy.jpg"

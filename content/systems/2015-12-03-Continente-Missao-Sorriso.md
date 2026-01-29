@@ -1,7 +1,7 @@
 +++
 title = "Continente Missao Sorriso"
 date = 2015-12-03
-status = "ongoing"
+status = "archived"
 tags = ["artica", "interactive", "physicalcomputing", "work"]
 featured = true
 cover = "./2015-12-03-Continente-Missao-Sorriso-images/missao_sorriso-1.jpg"

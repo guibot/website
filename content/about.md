@@ -2,20 +2,23 @@
 title = "About"
 +++
 
-## About
+## WHO
 
-This is a practice focused on exploring the boundaries between computational systems, sound design, and interactive media.
+I’m a Creative Technologist and Experimental Systems Designer.
+I design and build systems at the intersection of art and technology.
+My work focuses on creating meaningful experiences through systems, not isolated works.
 
-The work operates at the intersection of:
-- Generative and algorithmic composition
-- Real-time audiovisual systems
-- Interactive installations and performances
-- Process-based research and experimentation
+## HOW
 
-Rather than producing discrete works, the focus is on developing ongoing systems—frameworks for creation that evolve over time through iteration, testing, and reconfiguration.
+My practice is grounded in experimentation, prototyping and iteration.
+I work across hardware, software and physical interfaces, developing systems that evolve over time and generate multiple outputs, contexts or uses.
 
-### Collaboration
+## WHY
 
-Open to collaborations with artists, researchers, cultural institutions, and experimental collectives working at the edges of art and technology.
+I’m interested in making systems legible and tangible, where technology is sometimes hidden, othertimes felt, played and experienced. My process explores how people relate to complex systems through visuals, sound, and interaction.
+
+## COLLABORATION
+
+I’m open to collaborations, commissions and research contexts where process, experimentation and autonomy are central.
 
 For inquiries: [see contact](/contact)

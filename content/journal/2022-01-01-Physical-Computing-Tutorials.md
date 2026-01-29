@@ -1,7 +1,7 @@
 +++
 title = "Physical Computing Tutorials"
 date = 2022-01-01
-status = "ongoing"
+status = "archived"
 tags = ["interactive", "physicalcomputing", "research", "workshops", "tutorials"]
 featured = true
 cover = "./2022-01-01-Physical-Computing-Tutorials-images/physical_comp.jpg"

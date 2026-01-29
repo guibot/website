@@ -1,7 +1,7 @@
 +++
 title = "É como diz o outro"
 date = 2011-06-09
-status = "ongoing"
+status = "archived"
 tags = ["artica", "stage", "visuals", "work"]
 featured = true
 cover = "./2011-06-09-E-como-diz-o-outro-images/ecdoo.jpg"

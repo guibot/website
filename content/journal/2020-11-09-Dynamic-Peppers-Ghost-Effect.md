@@ -1,7 +1,7 @@
 +++
 title = "Dynamic Pepper's Ghost Effect"
 date = 2020-11-09
-status = "ongoing"
+status = "archived"
 tags = ["artica", "interactive", "research", "visuals", "workshops"]
 featured = true
 cover = "./2020-11-09-Dynamic-Peppers-Ghost-Effect-images/peppersghost.jpg"

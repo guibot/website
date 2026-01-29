@@ -1,7 +1,7 @@
 +++
 title = "Pepper's Ghost Experiment"
 date = 2020-02-13
-status = "ongoing"
+status = "archived"
 tags = ["artica", "interactive", "research", "visuals", "workshops"]
 featured = true
 cover = "./2020-02-13-Peppers-Ghost-Experiment-images/peppersghost_walkthrough.jpg"
