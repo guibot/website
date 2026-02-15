@@ -1,6 +1,6 @@
 baseURL = 'https://yoursite.com/'
 languageCode = 'en-us'
-title = 'Experimental Systems'
+title = 'Guilherme Martins'
 
 [params]
   description = "Designing and building experimental systems between art, technology, sound and interaction"
