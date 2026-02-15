@@ -75,20 +75,14 @@ pre {
     left: 0;
     right: 0;
     padding: var(--spacing);
-    background: rgba(10, 10, 10, 0.9);
-    backdrop-filter: blur(10px);
-    z-index: 1000;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.is-home .nav {
     background: transparent;
     backdrop-filter: none;
+    z-index: 1000;
     border-bottom: none;
     overflow: hidden;
 }
 
-.is-home .nav::before {
+.nav::before {
     content: "";
     position: absolute;
     inset: 0;
@@ -99,17 +93,14 @@ pre {
     z-index: 0;
 }
 
-.is-home .nav ul {
-    position: relative;
-    z-index: 1;
-}
-
 .nav ul {
     list-style: none;
     display: flex;
     gap: 2rem;
     max-width: var(--max-width);
     margin: 0 auto;
+    position: relative;
+    z-index: 1;
 }
 
 .nav a {
@@ -132,6 +123,15 @@ main {
     min-height: 100vh;
 }
 
+.is-home main {
+    padding-top: 4.75rem;
+    min-height: auto;
+}
+
+.is-contact main {
+    min-height: auto;
+}
+
 /* Home */
 
 .home-hero h1 {
@@ -144,7 +144,7 @@ main {
 
 .home-intro {
     max-width: 700px;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     color: var(--muted);
 }
 
@@ -152,15 +152,15 @@ main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
 .home-tag-cloud {
-    margin-top: 2.25rem;
+    margin-top: 1.5rem;
     width: 50%;
     max-width: 50%;
     flex: 0 0 50%;
-    padding-top: 1.5rem;
+    padding-top: 0.5rem;
     display: flex;
     flex-wrap: wrap;
     gap: 0.45rem 0.6rem;
@@ -411,7 +411,31 @@ main {
     text-align: center;
     color: var(--muted);
     font-size: 0.85rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.is-home .footer {
+    margin-top: 4rem;
+}
+
+.is-contact .footer {
+    margin-top: 2.25rem;
+}
+
+.footer-social {
+    margin-top: 0.4rem;
+}
+
+.footer-social a {
+    color: var(--muted);
+}
+
+.footer-social a:hover {
+    color: var(--accent);
+    opacity: 1;
+}
+
+.footer-sep {
+    color: var(--muted);
 }
 
 /* Responsive */

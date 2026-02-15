@@ -4,6 +4,21 @@ title = 'Experimental Systems'
 
 [params]
   description = "Designing and building experimental systems between art, technology, sound and interaction"
+  [[params.social]]
+    name = "Instagram"
+    url = "https://instagram.com/gui7.art"
+  [[params.social]]
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/gui7art/"
+  [[params.social]]
+    name = "YouTube"
+    url = "https://www.youtube.com/@guilhermemartinschannel"
+  [[params.social]]
+    name = "Bandcamp"
+    url = "https://guilhermemartins.bandcamp.com/"
+  [[params.social]]
+    name = "GitHub"
+    url = "https://github.com/guibot"
 
 [taxonomies]
   tag = 'tags'

@@ -7,7 +7,7 @@
     <meta name="description" content="{{ .Site.Params.description }}">
     <link rel="stylesheet" href="/css/style.css">
 </head>
-<body class="{{ if .IsHome }}is-home{{ end }}">
+<body class="{{ if .IsHome }}is-home{{ end }}{{ if eq .RelPermalink "/contact/" }} is-contact{{ end }}">
     {{ partial "navigation.html" . }}
     
     <main>
@@ -15,7 +15,6 @@
     </main>
     
     {{ partial "footer.html" . }}
-    {{ if .IsHome }}
     <script>
         (function () {
             var nav = document.querySelector(".nav");
@@ -29,6 +28,5 @@
             nav.style.setProperty("--nav-bg-url", 'url("' + pick + '")');
         })();
     </script>
-    {{ end }}
 </body>
 </html>
