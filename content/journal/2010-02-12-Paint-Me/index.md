@@ -1,0 +1,41 @@
++++
+title = "Paint Me"
+date = 2010-02-12
+lastUpdate = 0
+tags = ["stage", "visuals", "work"]
+featured = true
+cover = "paintme.jpg"
+showCover = false
++++
+
+{{< youtube 7j3DPwGHLuE >}}
+<span style="color:var(--bg)">◆</span>
+
+*My idea in writing Paint Me was to bring together six characters, all of whom have a prolific imaginative interior life, and to explore what they would make of each other in the confines of a railway compartment.  
+The model for my libretto is Geoffrey Chaucer’s The Canterbury Tales. The travellers in Paint Me are also on their way to Canterbury, but they are strangers thrown together by the randomness of modern travel. Their tales are not told publicly, but in their own imaginations.   
+Most journeys in the modern age are anonymous and conducted in silence. We have only a visual or perhaps manneristic impression of the people sitting opposite us. This introspection in public opens up a private fantasy space, in which our fellow travellers can become the characters in instant psychological dramatisations.  
+I wanted to formalize each character’s fantasy into a full narrative. The result is a kind of anthology of operatic short stories, surrounded by the framework of an ordinary journey.*
+
+Stephen Plaice
+
+
+Música Luís Tinoco   
+Libreto Stephen Plaice   
+Direcção musical Joana Carneiro   
+Encenação, cenografia, desenho de luz e conceito multimédia Rui Horta  
+Figurinos Ricardo Preto   
+Vídeo Guilherme Martins  
+Assistência informática musical Carlos Caires  
+Intérpretes Job Tomé (Padre), Hugo Oliveira (Howard), João Rodrigues (Lee), Raquel Camarinha (Tula), Eduarda Melo (Ruth), Patrícia Quinta (Stephanie)  
+Elementos da Orquestra Sinfónica Portuguesa Maestro assistente Kodo Yamagishi Encomenda Culturgest Co-produção Teatro Nacional de São Carlos, Culturgest
+
+SEX 17, SÁB 18 de Dezembro · Grande Auditório · 21h30 · Duração aprox. 1h00
+
+![](PaintmePNG-1024x705.png)
+
+
+{{< youtube TVth4zET_uM >}}
+
+{{< youtube 8dtAHCtu_wI >}}
+
+

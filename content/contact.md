@@ -2,17 +2,15 @@
 title = "Contact"
 +++
 
-## Contact
+For collaborations, commissions, general inquiries
 
-For collaborations, commissions, or general inquiries:
-
-**Email:** your@email.com
+**Email:** gui7 . art (at) gmail (dot) com
 
 Open to projects involving:
-- Audiovisual performance and live coding
-- Interactive installations
+- Audiovisual performance
+- Immersive Interactive installations
 - Generative systems and creative tools
-- Sound design and spatial audio
-- Research and teaching
+- Sound research and spatial audio
+- Tech Workshops (Makecode Arcade & Microbit, Physical Computing, P5JS, VCVRack)
 
-Prefer working with experimental collectives, cultural institutions, and artists exploring new forms of interaction between technology, sound and image.
+Prefer working with experimental collectives, cultural institutions, and artists exploring new forms of immersive interaction.

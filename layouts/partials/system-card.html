@@ -1,17 +1,38 @@
 <article class="system-card">
-    <a href="{{ .Permalink }}">
-        {{ if .Params.cover }}
-        <img src="{{ .Params.cover }}" alt="{{ .Title }}">
+    <a href="{{ .RelPermalink }}">
+        {{ $coverURL := "" }}
+        {{ with .Params.cover }}
+            {{ $res := $.Resources.GetMatch . }}
+            {{ if not $res }}
+                {{ $res = $.Resources.GetMatch (path.Base .) }}
+            {{ end }}
+            {{ if $res }}
+                {{ $coverURL = $res.RelPermalink }}
+            {{ else if or (strings.HasPrefix . "http") (strings.HasPrefix . "/") }}
+                {{ $coverURL = . }}
+            {{ end }}
+        {{ end }}
+        {{ if $coverURL }}
+            <img src="{{ $coverURL }}" alt="{{ .Title }}">
         {{ end }}
         <h3>{{ .Title }}</h3>
         <p class="system-meta">
-            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02 Jan 2006" }}</time>
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2006" }}</time>
+            {{ $last := .Params.lastUpdate }}
+            {{ if and $last (ne $last 0) (ne $last "0") }}
+                <span class="system-lastupdate">{{ (time $last).Format "Jan 2006" }}</span>
+            {{ end }}
             <span class="status status-{{ .Params.status }}">{{ .Params.status }}</span>
         </p>
         {{ if .Params.tags }}
         <div class="tags">
             {{ range .Params.tags }}
-                <span class="tag">{{ . }}</span>
+                {{ $term := $.Site.GetPage (printf "/tags/%s" (urlize .)) }}
+                {{ if $term }}
+                    <a class="tag" href="{{ $term.RelPermalink }}">{{ . }}</a>
+                {{ else }}
+                    <span class="tag">{{ . }}</span>
+                {{ end }}
             {{ end }}
         </div>
         {{ end }}

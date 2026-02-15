@@ -1,0 +1,41 @@
+{{ define "main" }}
+<section class="taxonomy">
+    <h1>Tag: {{ .Title }}</h1>
+
+    {{ $systems := where .Pages "Section" "systems" }}
+    {{ if $systems }}
+    <div class="taxonomy-section">
+        <h2>Systems</h2>
+        <div class="systems-grid">
+            {{ range $systems.ByDate.Reverse }}
+                {{ partial "system-card.html" . }}
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
+
+    {{ $journal := where (where .Pages "Section" "journal") "Params.cover" "!=" nil }}
+    {{ if $journal }}
+    <div class="taxonomy-section">
+        <h2>Journal</h2>
+        <div class="journal-grid">
+            {{ range $journal.ByDate.Reverse }}
+                {{ partial "journal-card.html" . }}
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
+
+    {{ $other := where .Pages "Section" "not in" (slice "systems" "journal") }}
+    {{ if $other }}
+    <div class="taxonomy-section">
+        <h2>Other</h2>
+        <ul class="taxonomy-list">
+            {{ range $other.ByDate.Reverse }}
+                <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+            {{ end }}
+        </ul>
+    </div>
+    {{ end }}
+</section>
+{{ end }}

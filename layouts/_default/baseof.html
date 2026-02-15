@@ -7,7 +7,7 @@
     <meta name="description" content="{{ .Site.Params.description }}">
     <link rel="stylesheet" href="/css/style.css">
 </head>
-<body>
+<body class="{{ if .IsHome }}is-home{{ end }}">
     {{ partial "navigation.html" . }}
     
     <main>
@@ -15,5 +15,20 @@
     </main>
     
     {{ partial "footer.html" . }}
+    {{ if .IsHome }}
+    <script>
+        (function () {
+            var nav = document.querySelector(".nav");
+            if (!nav) return;
+            var images = [
+                "/images/ble_1.webp",
+                "/images/ble_2.webp",
+                "/images/ble_3.webp"
+            ];
+            var pick = images[Math.floor(Math.random() * images.length)];
+            nav.style.setProperty("--nav-bg-url", 'url("' + pick + '")');
+        })();
+    </script>
+    {{ end }}
 </body>
 </html>

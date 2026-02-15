@@ -1,163 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Work in Progress</title>
-
-<style>
-html, body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    background: #000;
-    overflow: hidden;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.container {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background-image: url("/images/wip_hr.jpeg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.overlay {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: black;
-    text-align: center;
-    letter-spacing: 0.15em;
-}
-
-.title {
-    font-size: 48px;
-    font-weight: 600;
-    margin-bottom: 20px;
-}
-
-.glitch {
-    font-size: 22px;
-    margin-bottom: 20px;
-    opacity: 0.9;
-}
-
-/* GIF PLACEHOLDER */
-.glitch-line {
-    font-family: "Courier New", monospace;
-    font-size: 22px;
-    letter-spacing: 0.15em;
-    color: black;
-    text-align: center;
-    user-select: none;
-}
-
-
-
-.subtitle {
-    font-size: 14px;
-    opacity: 0.7;
-}
-</style>
-</head>
-
-<body>
-    <div class="container">
-        <div class="overlay">
-
-            <div class="title">WORK IN PROGRESS</div>
-
-            <div id="glitch-line" class="glitch-line"></div>
-            <br><br>
-            <div class="subtitle">DATA CORRUPTED</div>
-
-        </div>
+{{ define "main" }}
+<section class="home-hero">
+    <h1>I design and build experimental systems at the intersection between art and technology</h1>
+    
+    <div class="home-intro">
+        <p>My work is organized in two main sections:</p>
+    </div>
+    
+    <div class="home-links">
+        <a href="/systems/" class="home-link">
+            <h2>Systems</h2>
+            <p>Ongoing and archived systems</p>
+        </a>
+        
+        <a href="/journal/" class="home-link">
+            <h2>Journal</h2>
+            <p>Experiments, sketches, tests and reflections</p>
+        </a>
     </div>
 
-    <script>
-const GLITCH_LINES = [
-
-    "▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒",
-    "▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓",
-    "████████████████",
-    "░░░░░░░░░░░░░░░░",
-
-    "▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓",
-    "▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒",
-    "░▒▓▒░▒▓▒░▒▓▒░▒▓▒",
-    "▒▒▓▓▒▒▓▓▒▒▓▓▒▒▓▓",
-
-    "■■■■░░░░■■■■░░░░",
-    "████▒▒▒▒████▒▒▒▒",
-    "▓▓▓▓░░░░▓▓▓▓░░░░",
-
-    "▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌▌",
-    "▐▐▐▐▐▐▐▐▐▐▐▐▐▐▐▐",
-    "▚▚▚▚▚▚▚▚▚▚▚▚▚▚▚▚",
-    "▞▞▞▞▞▞▞▞▞▞▞▞▞▞▞▞",
-
-    "╳╳╳╳╳╳╳╳╳╳╳╳╳╳",
-    "××××××××××××××",
-
-    "═══════╬═══════",
-    "═╬══╬══╬══╬══╬═",
-    "╬══╬══╬══╬══╬══╬",
-    "══╬══╬══╬══╬══╬═",
-
-    "[::::::::::::::]",
-    "[====::::====]",
-    "[##::##::##::]",
-    "[||||||||||||]",
-
-    "<<<<<<<<>>>>>>>>",
-    "<<<<<<<>>>>>>>>>",
-    ">>>>>>><<<<<<<<",
-    "<<><<><<>>><>>>",
-
-    "//////\\\\\\\\\\\\",
-    "\\\\\\\\\\///////",
-
-    "--==--==--==--==",
-    "==--==--==--==--",
-
-    "## ## ## ## ## ##",
-    "####    ####    ",
-
-    "|| || || || || ||",
-    ":: :: :: :: :: ::",
-
-    "0000000000000000",
-    "1111111111111111",
-];
-
-const glitchEl = document.getElementById("glitch-line");
-
-const BASE_SIZE = 22;   // px
-const VARIATION = 4;    // ± px
-
-function glitchLoop() {
-
-    glitchEl.textContent =
-        GLITCH_LINES[Math.floor(Math.random() * GLITCH_LINES.length)];
-
-    const size =
-        BASE_SIZE + (Math.random() * VARIATION * 10 - VARIATION);
-
-    glitchEl.style.fontSize = size + "px";
-
-    const nextTime = Math.floor(Math.random() * (200 - 5 + 1)) + 5;
-
-    setTimeout(glitchLoop, nextTime);
-}
-
-glitchLoop();
-</script>
-
-</body>
-</html>
+    {{ $tags := .Site.Taxonomies.tags.ByCount }}
+    {{ if gt (len $tags) 0 }}
+    {{ $maxCount := (index $tags 0).Count }}
+    {{ $minCount := (index $tags (sub (len $tags) 1)).Count }}
+    <div class="home-tag-cloud" aria-label="Hashtags" style="width:50%;max-width:50%;flex:0 0 50%;">
+        {{ range $tags }}
+            {{ $size := 18 }}
+            {{ if gt $maxCount $minCount }}
+                {{ $size = add 12 (div (mul (sub .Count $minCount) 18) (sub $maxCount $minCount)) }}
+            {{ end }}
+            <a href="{{ .Page.RelPermalink }}" class="home-hashtag" style="font-size: {{ $size }}px;">
+                #{{ .Name }}
+            </a>
+        {{ end }}
+    </div>
+    {{ end }}
+</section>
+{{ end }}

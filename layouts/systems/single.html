@@ -9,16 +9,33 @@
         {{ if .Params.tags }}
         <div class="tags">
             {{ range .Params.tags }}
-                <span class="tag">{{ . }}</span>
+                {{ $term := $.Site.GetPage (printf "/tags/%s" (urlize .)) }}
+                {{ if $term }}
+                    <a class="tag" href="{{ $term.RelPermalink }}">{{ . }}</a>
+                {{ else }}
+                    <span class="tag">{{ . }}</span>
+                {{ end }}
             {{ end }}
         </div>
         {{ end }}
     </header>
     
     {{ if and .Params.cover .Params.showCover }}
+    {{ $coverURL := "" }}
+    {{ $res := .Resources.GetMatch .Params.cover }}
+    {{ if not $res }}
+        {{ $res = .Resources.GetMatch (path.Base .Params.cover) }}
+    {{ end }}
+    {{ if $res }}
+        {{ $coverURL = $res.RelPermalink }}
+    {{ else if or (strings.HasPrefix .Params.cover "http") (strings.HasPrefix .Params.cover "/") }}
+        {{ $coverURL = .Params.cover }}
+    {{ end }}
+    {{ if $coverURL }}
     <figure class="system-cover">
-        <img src="{{ .Params.cover }}" alt="{{ .Title }}">
+        <img src="{{ $coverURL }}" alt="{{ .Title }}">
     </figure>
+    {{ end }}
     {{ end }}
     
     <div class="system-content">

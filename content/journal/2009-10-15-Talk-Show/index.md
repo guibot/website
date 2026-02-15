@@ -1,0 +1,35 @@
++++
+title = "Talk Show"
+date = 2009-10-15
+lastUpdate = 0
+tags = ["stage", "visuals", "work"]
+featured = true
+cover = "talkshow.jpg"
+showCover = false
++++
+
+{{< youtube Ae7XbObhmDQ >}}
+<span style="color:var(--bg)">◆</span>
+
+Talk Show é uma obra para quatro intérpretes e duas colunas de som. Um questionamento sobre o corpo enquanto sistema comunicante e sobre o seu desaparecimento ao longo da vida no território maior da sua evidência, o amor.  
+  
+15 e 16 Out 2009 – 21:00  
+17 Out 2009 – 18:00 e 21:00  
+18 Out 2009 – 17:00
+
+PEQUENO AUDITÓRIO – SALA EDUARDO PRADO COELHO
+
+Um homem e uma mulher falam um com o outro à frente de uma plateia. As suas linguagens são simultaneamente a voz e o corpo. Falam de tudo e sobretudo através dos seus corpos, depositários do tempo, testemunhas de uma longa viagem. O corpo é a nossa única propriedade. Tudo o que realizamos tem a sua medida, tanto no espaço como no tempo. Talk Show é um road movie do corpo. Uma viagem onde a memória se inscreve no decifrar do passado e no momento do ajuste de contas, face ao futuro. Um exercício de curiosidade e inquietude perante o desconhecido. Quando o corpo se apaga, o que resta?
+
+Coreografia, Espaço cénico, Desenho de luz e Multimédia RUI HORTA  
+Música original TIAGO CERQUEIRA  
+Textos RUI HORTA | TIAGO RODRIGUES  
+Intérpretes ADRIANA QUEIROZ | MIGUEL MOREIRA | JOÃO MARTINS | BEATRIZ PEREIRA  
+Programação Multimédia RUI MADEIRA  
+Paisagem Visual GUILHERME MARTINS  
+Apoio dramatúrgico TIAGO RODRIGUES
+
+![](4026208172_db9694896f_o.jpg)
+![](4026208030_02635da2c4_o.jpg)
+![](4026207598_666e05750c_o.jpg)
+![](4026207168_a1c520c249_o.jpg)
