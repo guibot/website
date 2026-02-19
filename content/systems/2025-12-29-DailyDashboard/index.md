@@ -2,7 +2,7 @@
 title = "Daily DashBoard"
 date = 2025-12-29
 lastUpdate = 0
-status = "ongoing"
+status = "archived"
 tags = ["dashboard", "raspberrypi", "physicalcomputing", "research", "installation", "interface"]
 featured = true
 cover = "cover.webp"
