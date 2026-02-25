@@ -11,6 +11,34 @@ showCover = false
 
 Mini Dexed is a synthesizer emulator of the legendary Yamaha DX7. In this case, Mini Dexed has 8 instances of the DX7 simoultaneously. It runs on a [Raspberry Pi 4](https://www.raspberrypi.com/) - bare metal - what this means is, it doesn't run on Linux, it runs directly on the first computing layer of the CPU -> low latency, high DSP quality. 
 
+You might want to see the [v1 section](#v1), to see how it all started
+
+### v2 2026-01-30
+
+The v1 was fun, but I wanted to have a physical interface that allowed me to have more possibilities to control this synth. 
+Besides CutOff and Ressonance, set Sustain and Sustenuto, I thought I would be able to control more features. I didn't know exactly what the MiniDexed was, until I dived deeper into the tree structure as seen on Part 1. And if you want to program this beast and make your own synths, be prepared to master FM Synthesis.
+
+Only after building this physical controller, that I started to understand that this synth is not meant to be controlled like a normal synth, you have all the parameters available, but they are not meant to be controllable in real time like a "normal synth". Other small detail I noticed, if you want to program your own DX7 voice, you need to master FM synthesis for real.
+
+That's where [Dexed](https://asb2m10.github.io/dexed/) comes in. It's a VST plugin, where you can program your own DX7 patch, and save it as sysex (System Exclusive), and load the patch on a DX7, or any DX7 emulator.
+
+![](dexed.webp)
+
+Imagine having 8 instances of this synth, playing in simultaneously.
+
+This is making me re-think the purpose of this instrument, I came to the conclusion that I prefer to just enjoy the great sounds that already exist, instead of entering the rabbit hole of deep FM Synthesis, that probably will lead me to nothing.
+
+For now I'm just enjoying the piano soundings.
+
+{{< youtube Ce7R7SzKMqw >}}
+<span style="color:var(--bg)">◆</span>
+
+### <a id="v1"></a>v1 - 2026-01-10
+
+<span style="color:var(--bg)">◆</span>
+
+How it all started
+
 ![](minid1.webp)
 
 Each instance of the DX7 is called a Tone Generator - TG. The TG has plenty of features to manipulate and modulate the sound produced by the synth, and believe me, this thing is a monster. What you see in the structure below, is just for one Tone Generator, there are 7 more.
@@ -140,23 +168,4 @@ Because of this, I added a [Teensy](https://pjrc.com) to be able to navigate thr
 {{< youtube UpAzyyHeoow >}}
 <span style="color:var(--bg)">◆</span>
 
-
-### Update 2026-01-30
-
-I wanted to have a physical interface that allowed me to have more possibilities to control this synth. 
-Besides CutOff and Ressonance, set Sustain and Sustenuto, I thought I would be able to control more features. I didn't know exactly what the MiniDexed was, until I dived deeper into the tree structure as seen on Part 1. And if you want to program this beast and make your own synths, be prepared to master FM Synthesis.
-
-Only after building this physical controller, that I started to understand that this synth is not meant to be controlled like a normal synth, you have all the parameters available, but they are not meant to be controllable in real time like a "normal synth". Other small detail I noticed, if you want to program your own DX7 voice, you need to master FM synthesis for real.
-
-That's where [Dexed](https://asb2m10.github.io/dexed/) comes in. It's a VST plugin, where you can program your own DX7 patch, and save it as sysex (System Exclusive), and load the patch on a DX7, or any DX7 emulator.
-
-![](dexed.webp)
-
-Imagine having 8 instances of this synth, playing in simultaneously.
-
-This is making me re-think the purpose of this instrument, I came to the conclusion that I prefer to just enjoy the great sounds that already exist, instead of entering the rabbit hole of deep FM Synthesis, that probably will lead me to nothing.
-
-For now I'm just enjoying the piano soundings.
-
-{{< youtube Ce7R7SzKMqw >}}
 
