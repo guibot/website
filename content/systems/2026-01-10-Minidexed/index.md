@@ -9,6 +9,7 @@ cover = "cover2.webp"
 showCover = false
 +++
 
+
 Mini Dexed is a synthesizer emulator of the legendary Yamaha DX7. In this case, Mini Dexed has 8 instances of the DX7 simoultaneously. It runs on a [Raspberry Pi 4](https://www.raspberrypi.com/) - bare metal - what this means is, it doesn't run on Linux, it runs directly on the first computing layer of the CPU -> low latency, high DSP quality. 
 
 You might want to see the [v1 section](#v1), to see how it all started
