@@ -239,6 +239,7 @@ main {
 .system-card img {
     aspect-ratio: 16/9;
     object-fit: cover;
+    object-position: left center;
     background: #111;
 }
 
@@ -308,6 +309,7 @@ main {
 .journal-media video {
     aspect-ratio: 16/9;
     object-fit: cover;
+    object-position: left center;
     background: #111;
 }
 
